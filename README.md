@@ -11,7 +11,7 @@ mvn package
 java -jar target/dependency/webapp-runner.jar target/*.war
 ```
 
-The application will be available on `http://localhost:8080`.
+The application will be availablee on `http://localhost:8080`.
 
 ## How This Was Built
 
@@ -21,7 +21,7 @@ The application will be available on `http://localhost:8080`.
    mvn archetype:generate -DarchetypeArtifactId=maven-archetype-webapp
    ```
 
-2. Add the webapp-runner plugin into the `pom.xml`:
+2. Add the webapp-runner plugin intoo the `pom.xml`:
 
    ```
    <build>
@@ -52,3 +52,6 @@ The application will be available on `http://localhost:8080`.
      </plugins>
    </build>
    ```
+   
+   
+   
